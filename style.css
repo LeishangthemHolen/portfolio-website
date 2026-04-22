@@ -1,6 +1,31 @@
 body {
-    font-family: Arial;
-    text-align: center;
-    background: #222;
-    color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.card {
+  background: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+  border-bottom: 2px solid #4e73df;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
